@@ -1,19 +1,19 @@
 import { View, Text, SafeAreaView, Image } from "react-native";
 import React from "react";
+import NavOptions from "../components/NavOptions";
 
 const HomeScreen = () => {
   return (
-    <SafeAreaView className="flex-1 ">
-      <View>
+    <SafeAreaView className="bg-white ">
+      <View className="p-5">
         <Image
-          className="object-fill w-36 h-20 "
+          style={{ width: 100, height: 100, resizeMode: "contain" }}
           source={{
             uri: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/2560px-Uber_logo_2018.svg.png",
           }}
         />
       </View>
-
-      <Text className="text-red-700">super damn cool homescreen</Text>
+      <NavOptions />
     </SafeAreaView>
   );
 };
