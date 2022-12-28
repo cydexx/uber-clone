@@ -1,12 +1,14 @@
-import { StatusBar } from "expo-status-bar";
-import { SafeAreaView, Text, View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { Image, SafeAreaView, Text, View } from "react-native";
+import { store } from "./store";
+import { Provider } from "react-redux";
+import HomeScreen from "./screens/HomeScreen";
 
 export default function App() {
   return (
-    <SafeAreaView className="flex-1 justify-center items-center">
-      <Text className="text-blue-700">
-        Open up App.js to start working on your app!
-      </Text>
-    </SafeAreaView>
+    <Provider store={store}>
+      <HomeScreen />
+    </Provider>
   );
 }
