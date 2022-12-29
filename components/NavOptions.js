@@ -28,7 +28,7 @@ const NavOptions = () => {
       keyExtractor={(item) => item.id}
       renderItem={({ item }) => (
         <TouchableOpacity
-          onPress={() => navigation.navigate("Map")}
+          onPress={() => navigation.navigate(item.screen)}
           className="p-2 pl-6 pb-8 pt-4 bg-gray-200 m-2 w-40"
         >
           <View>
