@@ -5,6 +5,7 @@
 ## Used techs and sytems
 
 - [React Native](https://reactnative.dev/)
+- [Redux](https://redux.js.org/) 
 - [Prettier](https://github.com/prettier/prettier) — To format the code according to specific guidelines
 - [NativeWind](https://www.nativewind.dev/) — To alternate css tags to classNames
 - [React Native Navigation](https://www.npmjs.com/package/@react-navigation/native)
