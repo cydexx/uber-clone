@@ -1,6 +1,8 @@
 # Uber App Clone
 
-<img src="./assets/mockup.png" alt="mockup" width="25%" height="25%">
+<div align="center" >
+  <img src="https://user-images.githubusercontent.com/45735208/219928077-b8c64a7d-a291-4b24-9602-aee1c1cd23ba.png" alt="mockup" width="25%" height="25%">
+</div>
 
 ## Used techs and sytems
 
